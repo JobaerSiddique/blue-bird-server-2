@@ -7,6 +7,12 @@ const createAttendacneFromDB = async(classId:string,subject:string,teacherId:str
    
 }
 
+
+const getAllAttendance = async()=>{
+
+}
+
 export const AttadanceService={
-    createAttendacneFromDB
+    createAttendacneFromDB,
+    getAllAttendance
 }

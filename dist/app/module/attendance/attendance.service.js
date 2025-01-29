@@ -12,6 +12,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AttadanceService = void 0;
 const createAttendacneFromDB = (classId, subject, teacherId) => __awaiter(void 0, void 0, void 0, function* () {
 });
+const getAllAttendance = () => __awaiter(void 0, void 0, void 0, function* () {
+});
 exports.AttadanceService = {
-    createAttendacneFromDB
+    createAttendacneFromDB,
+    getAllAttendance
 };
